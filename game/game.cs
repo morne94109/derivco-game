@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
-//using static System.Collections.Specialized.BitVector32;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
