@@ -1,0 +1,7 @@
+﻿Player1: , 2d, 9c, qh, ks
+Player2: 10h, 2d, 9c, qh, ks
+Player3: 10h, 2d, 9c, qh, ks
+Player5: 10h, 2d, 9c, qh, ks
+Player4: 10h, 2d, 9c, qh, ks
+Player6: 10h, 2d, 9c, qh, ks
+Player7: 10h, 2d, 9c, qh, ks

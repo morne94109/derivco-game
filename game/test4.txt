@@ -1,0 +1,7 @@
+﻿Player1:3C,3C,2S,4H,KS
+Player2:QD,8D,7D,6C,2H
+Player3:10H,9D,8H,AH,KS
+Player4:JC,JC,KD,8C,8D
+Player5:qh,jh,aD,10S,AD
+Player6:QD,AC,KH,8c,JH
+Player7:6S,4C,8S,KD,4S

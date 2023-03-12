@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "game": {
+      "commandName": "Project",
+      "commandLineArgs": "--in negtest1.txt --out xyz.txt"
+    }
+  }
+}
