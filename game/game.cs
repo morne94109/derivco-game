@@ -425,7 +425,7 @@ namespace Game
 
                 if (!args.Contains("--in", StringComparer.InvariantCultureIgnoreCase))
                 {
-                    errorList.Add("optionParams.input file not specified. Use '--in' to specify the optionParams.input file");
+                    errorList.Add("Input file not specified. Use '--in' to specify the optionParams.input file");
                 }
                 else
                 {
@@ -437,7 +437,7 @@ namespace Game
 
                 if (!args.Contains("--out", StringComparer.InvariantCultureIgnoreCase))
                 {
-                    errorList.Add("optionParams.output file not specified. Use '--out' to specify the optionParams.output file");
+                    errorList.Add("Output file not specified. Use '--out' to specify the optionParams.output file");
                 }
                 else
                 {
@@ -448,14 +448,12 @@ namespace Game
 
                 if (errorList.Count > 0)
                 {
-                    Console.WriteLine("Found errors, unable to proceed");
-
                     throw new Exception(string.Join("\n", errorList));
                 }
             }
             else
             {
-                throw new Exception($"Invalid optionParams.input params, expecting --in 'file.txt' --out 'file.txt', received {string.Join(" ", args)} ");
+                throw new Exception($"Invalid input params, expecting --in 'file.txt' --out 'outfile.txt', received {string.Join(" ", args)} ");
             }
 
             return optionParams;
