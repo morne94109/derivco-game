@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Somefiles\" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="negtest1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -41,5 +44,8 @@
     <None Update="test3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Somefiles\" />
   </ItemGroup>
 </Project>
